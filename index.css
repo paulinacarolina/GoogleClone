@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
 header{
@@ -15,7 +16,7 @@ header{
     width: 250px;
     display: inherit;
     justify-content: flex-end;
-    margin: 0px 40px 0px 0px;
+    margin: 0px 10px 0px 0px;
 
 }
 
@@ -27,7 +28,7 @@ header{
 
 .navbar li{ 
     list-style: none;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 15px 0px 0px;
 
 }
 
@@ -48,4 +49,66 @@ header{
 
 .navbar .menu_photo{
     border-radius: 50%;
+
+}
+
+/*__________MAIN SECTION _____________*/
+
+main{
+    align-items: center;
+    justify-content: center;
+    margin: 7% 0 0 0;
+    text-align: center;
+}
+.main-logo{
+    width: 530px;
+    margin:0 auto 35px;
+    
+}
+
+.main_input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+
+main .main_input--container{
+    width: 520px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main_input--container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main_input--box{
+    border: none;
+    outline: none;
+    width: 450px;
+}
+
+main .main_input--box:hover, 
+main .main_input--box:active{
+    border: none;
+    outline: none;
+}
+
+.main_search--icon, .main__voice--icon{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin: 3% 3%;
+}
+.main_search--icon{
+    background-image: url('https://pngimage.net/wp-content/uploads/2018/06/lupa-de-pesquisa-png-6.png');
+}
+.main__voice--icon{
+    cursor: pointer;
+    background-image: url('https://www.pinclipart.com/picdir/big/32-322562_open-google-microphone-icon-clipart.png');
 }
